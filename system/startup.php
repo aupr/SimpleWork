@@ -64,13 +64,37 @@ foreach (glob(DIR_LAYOUT . '*' , GLOB_ONLYDIR) as $fpath) {
 }
 
 // Including the security layout file
-if (file_exists(DIR_LAYOUT . 'security.php')) {
-    include_once DIR_LAYOUT . 'security.php';
+if (file_exists(DIR_LAYOUT . 'access.php')) {
+    include_once DIR_LAYOUT . 'access.php';
 } else {
     throw new \Exception("Error: Could not find the security layout file!");
 }
 
-function start($default){
-    include_once DIR_APPLICATION . $default;
+// Default route function
+function routeDefault($fname) {
+    if (sizeof($ires =  glob(DIR_APPLICATION . $fname . '.*', GLOB_NOSORT))) {
+        include_once $ires[0];
+    } else {
+        echo "Invalid application route!";
+    }
 }
 
+// Route function
+function start($fname){
+    if (isset($_REQUEST['get'])) {
+        if (sizeof($ires =  glob(DIR_TRANSFER . $_REQUEST['get'] . '.*', GLOB_NOSORT))) {
+            include_once $ires[0];
+        } else {
+            echo '{total:0, result:0, request:0, return:0, data:0}';
+        }
+    } elseif (isset($_REQUEST['app'])) {
+        if (sizeof($ires =  glob(DIR_APPLICATION . $_REQUEST['app'] . '.*', GLOB_NOSORT))) {
+            include_once $ires[0];
+        } else {
+            routeDefault($fname);
+        }
+    }
+    else {
+        routeDefault($fname);
+    }
+}

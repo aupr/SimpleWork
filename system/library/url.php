@@ -2,22 +2,17 @@
 class Url {
 	private $url;
 	private $ssl;
-	//private $rewrite = array();
 
 	public function __construct($url, $ssl = '') {
 		$this->url = $url;
 		$this->ssl = $ssl;
 	}
 
-	/*public function addRewrite($rewrite) {
-		$this->rewrite[] = $rewrite;
-	}*/
-
-	public function link($route, $args = '', $secure = false) {
+	public function applink($route, $args = '', $secure = false) {
 		if ($this->ssl && $secure) {
-			$url = $this->ssl . 'preface.sw?trace=' . $route;
+			$url = $this->ssl . 'preface.sw?app=' . $route;
 		} else {
-			$url = $this->url . 'preface.sw?trace=' . $route;
+			$url = $this->url . 'preface.sw?app=' . $route;
 		}
 		
 		if ($args) {
@@ -28,10 +23,24 @@ class Url {
 			}
 		}
 
-		/*foreach ($this->rewrite as $rewrite) {
-			$url = $rewrite->rewrite($url);
-		}*/
-
 		return $url; 
 	}
+
+    public function getlink($route, $args = '', $secure = false) {
+        if ($this->ssl && $secure) {
+            $url = $this->ssl . 'preface.sw?get=' . $route;
+        } else {
+            $url = $this->url . 'preface.sw?get=' . $route;
+        }
+
+        if ($args) {
+            if (is_array($args)) {
+                $url .= '&amp;' . http_build_query($args);
+            } else {
+                $url .= str_replace('&', '&amp;', '&' . ltrim($args, '&'));
+            }
+        }
+
+        return $url;
+    }
 }

@@ -14,4 +14,4 @@ require_once('config.php');
 // Startup
 require_once(DIR_SYSTEM . 'startup.php');
 
-start('expose.php');
+start('expose');
