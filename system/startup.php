@@ -23,7 +23,7 @@ foreach(parse_ini_file(DIR_.'sw.ini') as $key=>$value) {
 
     // URL router object
     global $url;
-    $url = new url(HTTP_SERVER);
+    $url = new url(HTTP_SERVER . ADIR);
 
     // Encryption manager object
     global $encryption;

@@ -1,4 +1,5 @@
 <?php
+
 // Name
 define('NAME', 'SimpleWork');
 
