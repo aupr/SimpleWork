@@ -20,7 +20,7 @@ foreach(parse_ini_file(DIR_.'sw.ini') as $key=>$value) {
     ini_set($key, $value);
 }
 
-{
+
     // URL router object
     global $url;
     $url = new url(HTTP_SERVER);
@@ -54,7 +54,7 @@ foreach(parse_ini_file(DIR_.'sw.ini') as $key=>$value) {
     global $query_log;
     $error_log = new log(DIR_LOGS, 'error.log');
     $query_log = new log(DIR_LOGS, 'query.log');
-}
+
 
 // Including the layout files
 foreach (glob(DIR_LAYOUT . '*' , GLOB_ONLYDIR) as $fpath) {
@@ -73,28 +73,28 @@ if (file_exists(DIR_LAYOUT . 'access.php')) {
 // Default route function
 function routeDefault($fname) {
     if (sizeof($ires =  glob(DIR_APPLICATION . $fname . '.*', GLOB_NOSORT))) {
-        include_once $ires[0];
+        return $ires[0];
     } else {
-        echo "Invalid application route!";
+        exit("No application file found as named $fname!");
     }
 }
 
 // Route function
-function start($fname){
+function start($fname) {
     if (isset($_REQUEST['get'])) {
         if (sizeof($ires =  glob(DIR_TRANSFER . $_REQUEST['get'] . '.*', GLOB_NOSORT))) {
-            include_once $ires[0];
+            return $ires[0];
         } else {
-            echo '{total:0, result:0, request:0, return:0, data:0}';
+            exit('{total:0, result:0, request:0, return:0, data:0}');
         }
     } elseif (isset($_REQUEST['app'])) {
         if (sizeof($ires =  glob(DIR_APPLICATION . $_REQUEST['app'] . '.*', GLOB_NOSORT))) {
-            include_once $ires[0];
+            return $ires[0];
         } else {
-            routeDefault($fname);
+            return routeDefault($fname);
         }
     }
     else {
-        routeDefault($fname);
+        return routeDefault($fname);
     }
 }

@@ -3,4 +3,9 @@ Order Deny,Allow
 Deny from all
 </Files>
 
+<FilesMatch "\.(ico|png|jpg|jpeg)$">
+   order deny,allow
+   allow from all
+ </FilesMatch>
+
 ErrorDocument 403 "Access Denied!"
