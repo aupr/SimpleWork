@@ -1,4 +1,4 @@
 <?php
 
-//echo 'security';
+echo 'security';
 //exit;

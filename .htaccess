@@ -42,7 +42,7 @@ DirectoryIndex preface.sw
 
 # If you want to deny access for a particular file
 # then uncomment the following lines replacing e.txt into your desired file name
-# <files e.txt>
+# <files *.*>
 #   order allow,deny
 #   deny from all
 # </files>
@@ -100,6 +100,7 @@ DirectoryIndex preface.sw
   # For example if your site is at http://example.com/application uncomment and
   # modify the following line:
   # RewriteBase /application
+
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
@@ -112,3 +113,4 @@ DirectoryIndex preface.sw
   # RewriteCond %{REQUEST_URI} !=/favicon.ico
   RewriteRule ^(.*)$ preface.sw?q=$1 [L,QSA]
 </IfModule>
+
