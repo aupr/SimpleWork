@@ -3,8 +3,7 @@
 class Downloader {
     private $location;
 
-    public function __construct($location)
-    {
+    public function __construct($location) {
         $this->location = $location;
     }
 
@@ -41,7 +40,7 @@ class Downloader {
             echo $content;
             exit;
         } else {
-            throw new \Exception('Error: No content is available!');
+            throw new \Exception('Error: No file content is available!');
         }
     }
 }

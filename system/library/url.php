@@ -43,4 +43,22 @@ class Url {
 
         return $url;
     }
+
+    public function uilink($route, $args = '', $secure = false) {
+        if ($this->ssl && $secure) {
+            $url = $this->ssl . 'preface.sw?ui=' . $route;
+        } else {
+            $url = $this->url . 'preface.sw?ui=' . $route;
+        }
+
+        if ($args) {
+            if (is_array($args)) {
+                $url .= '&amp;' . http_build_query($args);
+            } else {
+                $url .= str_replace('&', '&amp;', '&' . ltrim($args, '&'));
+            }
+        }
+
+        return $url;
+    }
 }

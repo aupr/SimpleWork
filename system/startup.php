@@ -27,7 +27,7 @@ foreach(parse_ini_file(DIR_.'sw.ini') as $key=>$value) {
 
     // Encryption manager object
     global $encryption;
-    $encryption = new encryption("kdfie21s5df45ghjgfjgfhj");
+    $encryption = new encryption(ENCRYPTION_HASH);
 
     // Database manager object
     global $db;
@@ -44,6 +44,10 @@ foreach(parse_ini_file(DIR_.'sw.ini') as $key=>$value) {
     // Session manager object
     global $session;
     $session = new session('native', ADIR);
+
+    // File downloader object
+    global $downloader;
+    $downloader = new downloader(DIR_FILE);
 
     // Mail sender object
     global  $mail;
@@ -87,14 +91,19 @@ function start($fname) {
         } else {
             exit('{total:0, result:0, request:0, return:0, data:0}');
         }
+    } elseif (isset($_REQUEST['ui'])) {
+        if (sizeof($ires =  glob(DIR_UIM . $_REQUEST['ui'] . '.*', GLOB_NOSORT))) {
+            return $ires[0];
+        } else {
+            return routeDefault($fname);
+        }
     } elseif (isset($_REQUEST['app'])) {
         if (sizeof($ires =  glob(DIR_APPLICATION . $_REQUEST['app'] . '.*', GLOB_NOSORT))) {
             return $ires[0];
         } else {
             return routeDefault($fname);
         }
-    }
-    else {
+    } else {
         return routeDefault($fname);
     }
 }

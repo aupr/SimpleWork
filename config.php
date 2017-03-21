@@ -18,6 +18,7 @@ define('DIR_', PDIR.ADIR);
 // DIR_RELATIVE_PATH
 define('DIR_APPLICATION', DIR_.'application/');
 define('DIR_TRANSFER', DIR_.'transfer/');
+define('DIR_UIM', DIR_.'uim/');
 define('DIR_IMAGE', DIR_.'image/');
 define('DIR_FILE', DIR_.'file/');
 define('DIR_SYSTEM', DIR_.'system/');
@@ -35,3 +36,6 @@ define('DB_PASSWORD', '');
 define('DB_DATABASE', 'simplework');
 define('DB_PORT', '3306');
 define('DB_PREFIX', '');
+
+// Encryption
+define('ENCRYPTION_HASH', '6d2d9f1ec2ec849e9dd3433213ffb509');
