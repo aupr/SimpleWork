@@ -1,3 +1,3 @@
 <?php
 
-// access layout file to set page head, manage sessoin, manage permission for access
+// access layout file to set page head, manage session, manage permission for access

@@ -1,3 +1,3 @@
 /**
- * Created by Aman on 3/20/2017.
+ * Dummy javascript file by SimpleWork
  */

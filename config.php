@@ -39,3 +39,8 @@ define('DB_PREFIX', '');
 
 // Encryption
 define('ENCRYPTION_HASH', '6d2d9f1ec2ec849e9dd3433213ffb509');
+
+// Cache
+define('CACHE_PREFIX', 'SW'); // For "Alternative PHP Cache" or Memcache driver
+define('CACHE_HOSTNAME', ''); // for Memcache driver
+define('CACHE_PORT', ''); // for Memcache driver

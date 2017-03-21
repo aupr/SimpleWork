@@ -9,7 +9,7 @@ class APC {
 		$this->active = function_exists('apc_cache_info') && ini_get('apc.enabled');
 	}
 
-	/*public function get($key) {
+	public function get($key) {
 		return $this->active ? apc_fetch(CACHE_PREFIX . $key) : false;
 	}
 
@@ -21,7 +21,7 @@ class APC {
 		if (!$this->active) {
 			return false;
 		}
-		
+
 		$cache_info = apc_cache_info('user');
 		$cache_list = $cache_info['cache_list'];
 		foreach ($cache_list as $entry) {
@@ -29,5 +29,5 @@ class APC {
 				apcu_delete($entry['info']);
 			}
 		}
-	}*/
+	}
 }

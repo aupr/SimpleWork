@@ -1,11 +1,10 @@
 
 
-# This Apache web server configuration file is written by Aman Ullah, E-mail: amanullah.en@gmail.com
+# SimpleWork author: Aman Ullah, E-mail: amanullah.en@gmail.com
 
-
+# Here is some guidelines to edit .htaccess file
 # Help for mod_rewrite.c is here> https://www.addedbytes.com/articles/for-beginners/url-rewriting-for-beginners/
 # Help for mod_rewrite.c Main documentation is here> http://httpd.apache.org/docs/current/rewrite/
-
 # General htaccess htlp is here > http://www.htaccess-guide.com/
 
 # If you want to make your custom file extenstions
