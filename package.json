@@ -22,7 +22,10 @@
     "folder",
     "tree\""
   ],
-  "author": "Aman Ullah",
+  "author": {
+    "name": "Aman Ullah",
+    "email": "amanullah.snet@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aupr/SimpleWork/issues"

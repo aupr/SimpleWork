@@ -2,8 +2,254 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f189357d-17a8-4510-83ac-e011faa7c7ca" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/system/extlib/uniquecode.php" afterPath="$PROJECT_DIR$/system/extlib/rituniquecode.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/change-version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/nuget/MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/nuget/bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/nuget/bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/external/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/var/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/DOMEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/ready-no-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/readyException.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/stripAndCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/isHiddenWithinTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/css/var/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/data/var/acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/data/var/dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/data/var/dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/deferred/exceptionHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event/focusin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/event/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/var/rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/manipulation/wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/traversing/var/dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/traversing/var/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/ObjectFunctionString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/document.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/fnToString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/getProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/rnothtmlwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/src/wrap.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/css/bootstrap.min.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/dist/js/npm.js" afterPath="$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/js/npm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/core.js" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.js" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.min.js" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.min.map" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.min.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.slim.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.slim.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/application/vendor/jquery-3.1.1/jquery.slim.min.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/data/dummy.php" afterPath="$PROJECT_DIR$/layout/data/dummy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sw.ini" afterPath="$PROJECT_DIR$/sw.ini" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,30 +269,10 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="34">
-                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expose.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/expose.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sw.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -74,8 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/system/library/pagination.php" />
-        <option value="$PROJECT_DIR$/system/parser.php" />
         <option value="$PROJECT_DIR$/layout/data/dt2.php" />
         <option value="$PROJECT_DIR$/layout/data/dt1.php" />
         <option value="$PROJECT_DIR$/layout/data/dd.php" />
@@ -119,12 +343,14 @@
         <option value="$PROJECT_DIR$/system/library/downloader.php" />
         <option value="$PROJECT_DIR$/transfer/sample.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/system/library/log.php" />
-        <option value="$PROJECT_DIR$/sw.ini" />
         <option value="$PROJECT_DIR$/system/extlib/uniquecode.php" />
         <option value="$PROJECT_DIR$/application/expose.php" />
         <option value="$PROJECT_DIR$/system/extlib/rituniquecode.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sw.ini" />
+        <option value="$PROJECT_DIR$/layout/data/dummy.php" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -140,9 +366,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="x" value="41" />
+    <option name="y" value="33" />
+    <option name="width" value="1292" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -187,85 +413,21 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
+              <option name="myItemId" value="simplework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extlib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="simplework" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,19 +440,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\simplework\application\vendor\jquery-3.1.1" />
+      <recent name="C:\xampp\htdocs\simplework\application\vendor\jquery-3.1.1\dist" />
+      <recent name="C:\xampp\htdocs\simplework\application\vendor\bootstrap-3.3.7" />
+      <recent name="C:\xampp\htdocs\simplework\system\library" />
+      <recent name="C:\xampp\htdocs\simplework" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\simplework\transfer" />
       <recent name="C:\xampp\htdocs\simplework\uim" />
       <recent name="C:\xampp\htdocs\simplework\layout\logic" />
       <recent name="C:\xampp\htdocs\simplework\file\self" />
       <recent name="C:\xampp\htdocs\simplework\file\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\simplework\system\library" />
-      <recent name="C:\xampp\htdocs\simplework" />
-      <recent name="C:\xampp\htdocs\simplework\image\public" />
-      <recent name="C:\xampp\htdocs\SimpleWork\application" />
-      <recent name="C:\xampp\htdocs\simplework\layout" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.simplework">
@@ -409,6 +571,7 @@
       <workItem from="1490444983616" duration="11855000" />
       <workItem from="1490499733925" duration="19088000" />
       <workItem from="1490628066095" duration="229000" />
+      <workItem from="1490726426637" duration="1013000" />
     </task>
     <servers />
   </component>
@@ -418,29 +581,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209085000" />
+    <option name="totallyTimeSpent" value="210098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="41" y="33" width="1292" height="1000" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19822006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2021104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,11 +617,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/scss/main.scss" />
-    <entry file="file://$PROJECT_DIR$/application/scss/main.scss" />
-    <entry file="file://$PROJECT_DIR$/application/vendor/jquery-3.1.1/AUTHORS.txt" />
-    <entry file="file://$PROJECT_DIR$/file/self/test.md" />
-    <entry file="file://$PROJECT_DIR$/application/vendor/jquery-3.1.1/.bower.json" />
     <entry file="file://$PROJECT_DIR$/application/dbtest.php" />
     <entry file="file://$PROJECT_DIR$/application/tcpdftest.php" />
     <entry file="file://$PROJECT_DIR$/image/self/aaa.php" />
@@ -523,13 +681,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/logic/dummy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -603,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,13 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/data/dummy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -683,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,23 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sw.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/expose.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,6 +854,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/expose.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/logic/dummy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/data/dummy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/bootstrap-3.3.7/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -739,7 +936,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
