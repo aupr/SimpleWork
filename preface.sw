@@ -4,7 +4,7 @@
 define('NAME', 'SimpleWork');
 
 // Version
-define('VERSION', '1.0.0-Beta');
+define('VERSION', '1.0.1');
 
 // Configuration
 require_once('config.php');

@@ -1,6 +1,6 @@
 {
   "name": "simplework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\u001b[2~It's a project to build new php projects where the folder tree and common libraries are included along with.",
   "main": "preface.sw",
   "scripts": {
